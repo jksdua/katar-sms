@@ -1,0 +1,30 @@
+{
+  "name": "katar-sms",
+  "version": "0.0.1",
+  "description": "SMS queue system can be used to send and receive sms messages from a phone application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail --harmony --timeout 5000"
+  },
+  "keywords": [
+    "queue",
+    "katar",
+    "sms"
+  ],
+  "author": "Jaap Karan Singh",
+  "license": "MIT",
+  "dependencies": {
+    "katar": "0.0.1",
+    "katar-worker-http": "0.0.2",
+    "jsonschema": "~0.4.0",
+    "lodash": "~2.4.1",
+    "ms": "~0.6.2"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "lodash": "~2.4.1",
+    "co": "~3.0.5",
+    "request": "~2.34.0"
+  }
+}
